@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music</title>
+    <style>
+        .body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .img img{
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 250px;
+        }
+        .music{
+            margin-top: 20px;
+        }
+        .controls a{
+            text-decoration: none;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <h1>Baarish - Yaariyan</h1>
+        <div class="img">
+            <img src="https://www.pagalworld.pw/GpE34Kg9Gq/8545/thumb-yaariyan-mp3-songs-2014-300.jpg" alt="Baarish - Yaariyan">
+        </div>
+        <div class="music">
+            <audio controls>
+                <source src="Baarish - Yaariyan.ogg" type="audio/ogg">
+                <source src="Baarish - Yaariyan.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+        </div>
+        <div class="controls">
+            <a href="previous" target="up">&#9194</a>
+            <a href="next" target="up">&#9193</a>
+        </div>
+    </div>
+</body>
+</html>
